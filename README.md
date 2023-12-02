@@ -1,7 +1,7 @@
 # Counter Application
 - This is a react redux application for post management.  
 
-(Click for demo page)[https://counter-application-fdkf.onrender.com/]
+(Click for demo page)[https://post-management-to7u.onrender.com]
 
 ## Sample images
 
