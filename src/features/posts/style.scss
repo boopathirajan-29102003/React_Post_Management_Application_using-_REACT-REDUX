@@ -1,0 +1,47 @@
+.main {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9eaed;
+    border-bottom: .1rem solid darkblue;
+    h1 {
+        color: darkblue;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    div {
+        width: 70%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .card {
+        background-color: #d3e7fd;
+        height: 10rem;
+        width: 100%;
+        padding: .3rem;
+        border: .1rem solid darkblue;
+    }
+
+    input {
+        height: 3rem;
+        width: 50%;
+        margin: .2rem;
+    }
+
+    button {
+        height: 3rem;
+        width: 50%;
+        margin: .5rem;
+        border: solid darkblue;
+        color: darkblue;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
