@@ -20,10 +20,12 @@ const AddPost = () => {
             <input type="text"
                 value={title}
                 onChange={(e) => { setTitle(e.target.value) }}
+                placeholder="Add your Title"
             />
             <input type="text"
                 value={content}
                 onChange={(e) => { setContent(e.target.value) }}
+                placeholder="Add your Content"
             />
             <button
                 type="button"
